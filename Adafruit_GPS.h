@@ -56,6 +56,10 @@
 #include <SPI.h>
 #include <Wire.h>
 
+#include "AZ3166SPI.h"  //smm <GPS02>
+//smm <GPS02> Adding header, AZ3166SPI.h to try to eliminate errors seen in TERMINAL, and when clicked-on Adafruit_GPS.h file...
+// (1.) TERMINAL: 'SPIClass' does not name a type, (2.) Adafruit_GPS.h file: "SPIClass is undefined errors"
+
 /**************************************************************************/
 /**
  Different commands to set the update rate from once a second (1 Hz) to 10 times
